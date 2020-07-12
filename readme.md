@@ -53,19 +53,19 @@
 //FreeRTOS
 Array=cJSON_GetArrayItem(Array_obj1,0);
 Array_obj2=cJSON_GetObjectItem(Array,"now");		
-Array_obj3=cJSON_GetObjectItem(Array_obj2,"code");			//解析出JSON中天气代码，如0->晴
-osDelay(1000);												//实测，一定要有个延时，否则解码失败
-Array_obj4=cJSON_GetObjectItem(Array_obj2,"temperature");	//解析出JSON中温度，注：温度以字符串形式解析出来
+Array_obj3=cJSON_GetObjectItem(Array_obj2,"code");//解析出JSON中天气代码，如0->晴
+osDelay(1000);//实测，一定要有个延时，否则解码失败
+Array_obj4=cJSON_GetObjectItem(Array_obj2,"temperature");//解析出JSON中温度，注：温度以字符串形式解析出来
 printf("n\r%s\n\r",Array_obj3->valuestring);
 printf("n\r%s\n\r",Array_obj4->valuestring);
 strcpy(Recive,Array_obj3->valuestring);
 strcpy(Recive2,Array_obj4->valuestring);
-cJSON_Delete(json);											//释放内存，重中之重，一定要释放，否则程序一会就会卡死
+cJSON_Delete(json);	//释放内存，重中之重，一定要释放，否则程序一会就会卡死
 ```
 
 ```c
 //设置EMWIN内存大小
-#define GUI_NUMBYTES  (100*1024)	//设置为100kb，可以根据需要进行更改
+#define GUI_NUMBYTES  (100*1024) //设置为100kb，可以根据需要进行更改
 #define GUI_BLOCKSIZE 0X50
 
 
