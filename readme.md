@@ -1,4 +1,7 @@
-# 项目总结
+[![](https://img.shields.io/github/stars/name-longming/EmWin-SmallPhone.svg?style=social&label=Star)](https://github.com/name-longming/EmWin-SmallPhone)
+[![](https://img.shields.io/github/forks/qiubaiying/EmWin-SmallPhone.svg?style=social&label=Fork)](https://github.com/name-longming/EmWin-SmallPhone)
+
+# 📦项目总结
 
 > 此项目基于stm32F407+FreeRTOS+EmWin+ESP8266的物联网项目
 
@@ -14,7 +17,7 @@
 
 
 
-## 项目器件
+## 🔨项目器件
 
 该项目所需要的设备有：stm32F407最小系统板，TFT2.8寸电阻屏，ESP8266。
 
@@ -24,7 +27,7 @@
 
 
 
-## 注意点
+## 📄注意点
 
 1. 使用EmWin时一定要将CRC寄存器打开（否则无法正常显示）
 
@@ -45,7 +48,7 @@
 
 
 
-## 部分代码解析
+## 📄部分代码解析
 
 ```c
 //FreeRTOS
@@ -83,14 +86,14 @@ void GUI_X_Config(void)
 
 
 
-## 项目目前已知bug（持续修复）
+## 📄项目目前已知bug（持续修复）
 
 - [ ] ESP8266读取天气时，只有在打开**HOME**界面后才会开始读取（开机默认读取一次天气），且读取一次后ESP8266将不会再继续读取天气，直到再一次打开**HOME**界面。
 - [ ] **CLOCK**界面进行计时时，可以通过**TIMOUT**键进行暂停，但是每次退出**CLOCK**界面时必须让时钟暂停，否则程序将会卡死。
 
 
 
-## 更新日志
+## 📄更新日志
 
 | 更新时间  |   更新内容   |
 | :-------: | :----------: |
@@ -98,14 +101,14 @@ void GUI_X_Config(void)
 
 
 
-## 未来计划
+## 📄未来计划
 
 1. 通过ESP8266同服务器相连接，实现模拟聊天功能
 2. 通过服务器，将该项目作为一个智能家居的控制器，用于控制所有可通信的模块
 
 
 
-## 项目图片
+## ✅项目图片
 
 
 ![main](https://img-blog.csdnimg.cn/20200712140057942.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L25hbWVfbG9uZ21pbmc=,size_16,color_FFFFFF,t_70)
