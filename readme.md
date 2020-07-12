@@ -1,5 +1,5 @@
 [![](https://img.shields.io/github/stars/name-longming/EmWin-SmallPhone.svg?style=social&label=Star)](https://github.com/name-longming/EmWin-SmallPhone)
-[![](https://img.shields.io/github/forks/qiubaiying/EmWin-SmallPhone.svg?style=social&label=Fork)](https://github.com/name-longming/EmWin-SmallPhone)
+[![](https://img.shields.io/github/forks/name-longming/EmWin-SmallPhone.svg?style=social&label=Fork)](https://github.com/name-longming/EmWin-SmallPhone)
 
 # 📦项目总结
 
