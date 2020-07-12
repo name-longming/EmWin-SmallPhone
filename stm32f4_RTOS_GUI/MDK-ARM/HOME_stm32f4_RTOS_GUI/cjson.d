@@ -1,0 +1,10 @@
+home_stm32f4_rtos_gui\cjson.o: ..\Src\cJSON.c
+home_stm32f4_rtos_gui\cjson.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+home_stm32f4_rtos_gui\cjson.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+home_stm32f4_rtos_gui\cjson.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+home_stm32f4_rtos_gui\cjson.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+home_stm32f4_rtos_gui\cjson.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+home_stm32f4_rtos_gui\cjson.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+home_stm32f4_rtos_gui\cjson.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\float.h
+home_stm32f4_rtos_gui\cjson.o: ../Inc/cJSON.h
+home_stm32f4_rtos_gui\cjson.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
