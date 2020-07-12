@@ -106,6 +106,4 @@ void GUI_X_Config(void)
 
 
 ## 项目图片
-
-***引用我的CSDN上的图片***
 ![main](https://img-blog.csdnimg.cn/20200712140057942.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L25hbWVfbG9uZ21pbmc=,size_16,color_FFFFFF,t_70)
