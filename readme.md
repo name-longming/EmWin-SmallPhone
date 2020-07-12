@@ -1,5 +1,3 @@
-[TOC]
-
 # 项目总结
 
 > 此项目基于stm32F407+FreeRTOS+EmWin+ESP8266的物联网项目
@@ -81,7 +79,7 @@ void GUI_X_Config(void)
 
 
 
-***如果还有哪些代码有问题，可以直接私信我，我的博客地址：[nameytg.top](nameytg.top)***
+***如果还有哪些代码有问题，可以直接私信我，我的博客地址：[nameytg.top](http://nameytg.top)***
 
 
 
